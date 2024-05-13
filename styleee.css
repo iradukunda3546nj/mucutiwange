@@ -1,0 +1,189 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width:100%;
+  height: 100%;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+header nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: pink;
+  padding: 10px;
+ 
+  align-items: center;
+  width :500px
+  heigt :500px
+ 
+}
+
+.hero-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+button {
+      background-color: yellow;
+      color: black
+      padding: 15px 32px;
+      text-align: start;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+      margin: auto;
+      cursor: pointer;
+      border-radius: 50px;
+      align-items: center;
+      height: 50px;
+}
+
+/* Destinations Section */
+.destinations {
+  padding: 50px 0;
+}
+
+.destinations h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.destination-cards {
+  display: flex;
+  //flex-wrap: wrap;
+  //justify-content: space-between;
+}
+
+.card {
+  width: calc(33.3% - 20px);
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  align-items:center;
+}
+
+.card img {
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+/* Benefits Section */
+.benefits {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+.benefits h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.benefit-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.icon-wrapper {
+  width: calc(25% - 20px);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon-wrapper i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 50px 0;
+  background-color:gray;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  border: none;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color:gray;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.view-all {
+  background-color:gray;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Call to Action Section */
+.action {
+  text-align: center;
+  padding: 10px ;
+  background-color:gray;
+  margin-bottom: 35px;
+}
+.mybutton {
+ padding: 15px;
+}
+
